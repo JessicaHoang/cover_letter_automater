@@ -14,9 +14,9 @@ import datetime
 position_name = input("Enter the name of the position you're appling for : ")
 company_name = input("Enter the name of the company : ")
 job_listing = input("Enter the job listing site you found the position from : ")
-company_values = input("Enter the company's values : ")
-company_project = input("Enter the company's current project of interested : ")
-relevant_skills = input("Enter your relevant skills to the position : ")
+company_values = input("Enter the company's values : (your commitment to..) ")
+company_project = input("Enter the company's current project of interested : (I am particularly drawn to..) ")
+relevant_skills = input("Enter your relevant skills to the position : (my proficiency in..) ")
 
 todays_date = datetime.datetime.today().strftime("%B %d, %Y")
 
